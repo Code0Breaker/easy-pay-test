@@ -1,0 +1,47 @@
+.card{
+ background-size: contain;
+ background-position:center ;
+ height: 220px;
+ background-repeat: no-repeat;
+ border-radius: 20px;
+}
+
+.card_slider{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.platforms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.platform{
+    width: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 40px 80px rgba(99, 101, 158, 0.04), 0px 25.9259px 46.8519px rgba(99, 101, 158, 0.0303704), 0px 15.4074px 25.4815px rgba(99, 101, 158, 0.0242963), 0px 8px 13px rgba(99, 101, 158, 0.02), 0px 3.25926px 6.51852px rgba(99, 101, 158, 0.0157037), 0px 0.740741px 3.14815px rgba(99, 101, 158, 0.00962963);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    margin: 10px;
+}
+
+.platform img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.platform p{
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    margin: 0;
+}
+.platform span{
+    font-weight: 600;
+    font-size: 14px;
+    color: #A9A9B7;
+}

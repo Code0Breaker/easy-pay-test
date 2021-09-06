@@ -1,0 +1,41 @@
+.filter_block{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.add_block{
+    display: flex;
+    align-items: center;
+}
+
+.add_filter{
+    display: flex;
+    align-items: center;
+}
+
+.add_block button{
+    margin-left: 10px;
+    height: 40px;
+}
+
+.filterBtn{
+    margin-left: 10px;
+    border-radius: 10px;
+    background: white;
+}
+
+@media screen and (max-width:600px) {
+    .filter_block{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .add_block{
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+
+}
